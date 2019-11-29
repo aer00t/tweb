@@ -1,0 +1,6 @@
+RewriteCond %{QUERY_STRING} PHPSESSID=.*$
+RewriteRule .* %{REQUEST_URI}? [R=301,L]
+
+RewriteEngine On
+
+RewriteRule  ^(.*)(.php|.html)$  control.php?_bin=$1\&_ext=$2\&c=$0\&_esteac=ac&%{QUERY_STRING} [NC,L]

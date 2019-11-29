@@ -1,0 +1,68 @@
+.custom_green{
+    color: rgb(30, 255, 0);
+    margin: 0 10px;
+}
+
+#name_logo{
+    width: 18%;
+    border-bottom:solid green 1px;
+    border-top:solid green 1px;
+    color: rgb(30, 255, 0);
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: 17pt;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-right: 35px;
+}
+
+.bloques{
+    overflow: hidden;
+}
+
+.bloques > div:nth-child(1){
+    float: left;
+}
+
+#blk_izq {
+    width: 20%;
+    margin-top: 10px;
+}
+
+#blk_izq > div{
+    border: solid red 1px;
+}
+
+#blk_izq_top > img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#blk_izq_bottom{
+    margin-top: 20px;
+    padding: 7px;
+}
+
+#blk_der {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.productos-index{
+    float: left;
+    border: solid 1px rgb(30, 255, 0);
+    margin-left: 4%;
+    margin-bottom: 13px;
+}
+
+.tiendas{
+    float: left;
+    border: solid 1px rgb(30, 255, 0);
+    margin-left: 2.1%;
+    margin-bottom: 13px;
+}
+
+.tiendas > div {
+    border: solid blue 1px;
+}
