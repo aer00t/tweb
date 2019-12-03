@@ -17,9 +17,9 @@
                     <span class="custom_green">Categorias</span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="bin_categorias.php?cat=1">Cat1</a>
-                    <a class="dropdown-item" href="bin_categorias.php?cat=2">Cat2</a>
-                    <a class="dropdown-item" href="bin_categorias.php?cat=3">Cat3</a>
+                    <a class="dropdown-item" href="bin_tiendas.php?cat=1">Cat1</a>
+                    <a class="dropdown-item" href="bin_tiendas.php?cat=2">Cat2</a>
+                    <a class="dropdown-item" href="bin_tiendas.php?cat=3">Cat3</a>
                 </div>
             </li>
             <?php

@@ -6,7 +6,8 @@ for($i=0;$i<6;$i++){ ?>
             <img src="./img/uc.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Nombre de tienda</h5>
-                <a href="bin_ver_tienda.php?id_tienda= <?php echo $i+1?>" class="btn btn-outline-success"><span class="custom_green">Ver Tienda</span></a>
+                <a href="bin_ver_tienda.php?id_tienda=<?php echo $i+1?>" class="btn btn-outline-success"><span class="custom_green">Ver Tienda</span></a>
+                <p class="card-text"><small class="text-muted">Categoria</small></p>
             </div>
         </div>
     </div>

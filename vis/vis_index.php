@@ -8,6 +8,7 @@
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="bin_ver_producto.php?prod_id=<?php echo $i+1?>" class="btn btn-outline-success"><span class="custom_green">Ver Producto</span></a>
+                    <p class="card-text"><small class="text-muted">Nombre tienda</small></p>
                 </div>
             </div>
         </div>

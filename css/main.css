@@ -27,10 +27,7 @@
 #blk_izq {
     width: 20%;
     margin-top: 10px;
-}
-
-#blk_izq > div{
-    border: solid red 1px;
+    text-align: center;
 }
 
 #blk_izq_top > img{
@@ -39,9 +36,11 @@
     border-radius: 10px;
 }
 
-#blk_izq_bottom{
-    margin-top: 20px;
-    padding: 7px;
+.social_nw{
+    width: 55px;
+    height: 55px;
+    margin-top: 25px;
+    margin-left: 9px;
 }
 
 #blk_der {
@@ -65,4 +64,36 @@
 
 .tiendas > div {
     border: solid blue 1px;
+}
+/* Tienda y sus productos  */
+
+.ver_tienda{
+    border: solid red 1px;
+    padding: 5px;
+}
+
+.card-img-top{
+    width: 15%;
+    height: 200px;
+}
+
+.productos-tienda{
+    float: left;
+    border: solid 1px rgb(30, 255, 0);
+    margin-left: 3%;
+    margin-bottom: 13px;
+}
+
+#mi_cuenta{
+    border: solid red 1px;
+    padding: 100px 25%;
+}
+
+.reset_pass_btn{
+    text-align: center;
+}
+
+#login{
+    border: solid red 1px;
+    padding: 100px 25%;
 }
