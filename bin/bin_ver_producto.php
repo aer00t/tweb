@@ -8,7 +8,5 @@ include_once ($_DIR_VIS."vis_bloques_1.php");
 
 include_once ($_DIR_VIS."vis_ver_producto.php");
 
-include_once ($_DIR_VIS."vis_bloques_2.php");
-
 include_once ($_DIR_VIS."vis_footer.php");
 

@@ -15,21 +15,21 @@
         </div>
 
         <div class="form-group row">
-            <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña Nueva</label>
+            <label for="pass_reset1" class="col-sm-2 col-form-label">Contraseña Nueva</label>
             <div class="col-sm-10">
-                <input type="password" class="form-control" id="pass1" placeholder="Password">
+                <input type="password" class="form-control" id="pass_reset1" placeholder="Password">
             </div>
         </div>
 
         <div class="form-group row">
-            <label for="inputPassword" class="col-sm-2 col-form-label">Reingrese Contraseña</label>
+            <label for="pass_reset2" class="col-sm-2 col-form-label">Reingrese Contraseña Nueva</label>
             <div class="col-sm-10">
-                <input type="password" class="form-control" id="pass2" placeholder="Password">
+                <input type="password" class="form-control" id="pass_reset2" placeholder="Password">
             </div>
         </div>
         <div class="reset_pass_btn">
             <button type="button" class="btn btn-primary">Cambiar</button>
-            <button type="button" class="btn btn-secondary">Cancelar</button>
+            <a type="button" class="btn btn-secondary" href="index.php">Cancelar</a>
         </div>
     </form>
 </div>

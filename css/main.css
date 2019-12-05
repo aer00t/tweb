@@ -1,6 +1,5 @@
 .custom_green{
     color: rgb(30, 255, 0);
-    margin: 0 10px;
 }
 
 #name_logo{
@@ -96,4 +95,31 @@
 #login{
     border: solid red 1px;
     padding: 100px 25%;
+}
+
+#ver_producto{
+    height: 100%;
+    padding: 3% 15%;
+    text-align: center;
+    align-content: center;
+}
+
+#carrusel{
+    margin-top: 20px;
+    padding: 0 25%;
+}
+
+.img-carrusel{
+    z-index: 100;
+    border: solid 1px rgb(30, 255, 0);
+    width: 250px;
+    height: 200px;
+}
+
+.desc-carrusel{
+    z-index: -2;
+    color: rgb(0, 225, 255);
+    font-size: 16pt;
+    text-shadow: 0px 2px 4px black;
+    font-weight: bold;
 }
