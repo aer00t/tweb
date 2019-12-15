@@ -1,10 +1,11 @@
 <div id="login">
     <h2>Registro</h2>
-    <form>
+    <form action=""></form>
+    <form id="foo_registro" action="#">
         <div class="form-group row">
             <label for="staticEmail" class="col-sm-2 col-form-label">Email*</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="email" placeholder="Email" required maxlength="60">
+                <input type="mail" class="form-control" id="email" placeholder="Email" required maxlength="60">
             </div>
         </div>
 
@@ -29,7 +30,7 @@
         
 
         <div class="reset_pass_btn">
-            <button type="button" class="btn btn-primary">Registrar</button>
+            <button type="submit" class="btn btn-primary">Registrar</button>
             <a type="button" class="btn btn-secondary" href="index.php">Cancelar</a>
             <a id="bt-login" class="btn btn-outline-success" type="button" href="bin_registro_tienda.php">
                 <span class="custom_green">Registrar Tienda</span>
